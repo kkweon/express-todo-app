@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Todo API",
+  "main": "index.js",
+  "author": "Mo Kweon",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12",
+    "pug": "^2.0.0-rc.4"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3",
+    "node-sass": "^4.7.2",
+    "node-sass-middleware": "^0.11.0"
+  }
+}

@@ -1,0 +1,43 @@
+/* List Styles */
+
+.list {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.task {
+  color: #34495e;
+  font-size: 20px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  transition: all .3s ease;
+  width: 100%;
+
+  &:hover {
+    background: rgba(0, 0, 0, .02);
+    cursor: pointer;
+
+    span {
+      opacity: 1;
+    }
+  }
+}
+
+
+.done {
+  color: #bdc3c7;
+  text-decoration: line-through;
+}
+
+li span {
+  color: #c0392b;
+  float: right;
+  opacity: 0;
+  transition: all .3s;
+  font-weight: 700;
+}
+
+li span:hover {
+  color: #e74c3c;
+}

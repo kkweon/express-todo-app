@@ -1,0 +1,17 @@
+version: "3"
+services:
+  api:
+    image: node:latest
+    volumes:
+      - "./api:/code"
+    command: |
+      /bin/bash -c  "
+        cd /code && yarn install && yarn start
+      "
+    ports:
+      - 4000:4000
+    environment:
+      - DB=mongodb://db
+  db:
+    # port 27017
+    image: mongo:latest
