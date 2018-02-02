@@ -6,7 +6,8 @@
   "author": "Mo Kweon",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "develop": "nodemon src/index.js"
   },
   "devDependencies": {
     "nodemon": "^1.14.12",

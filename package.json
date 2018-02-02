@@ -1,0 +1,10 @@
+{
+  "name": "todo_node_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kyung Mo Kweon <kkweon@gmail.com>",
+  "scripts": {
+    "postinstall": "npm install --prefix api"
+  },
+  "license": "MIT"
+}
