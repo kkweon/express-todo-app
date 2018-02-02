@@ -11,7 +11,7 @@ services:
     ports:
       - 4000:4000
     environment:
-      - DB=mongodb://db
+      - MONGODB_URI=mongodb://db/todo-api
   db:
     # port 27017
     image: mongo:latest
