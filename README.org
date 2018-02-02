@@ -1,0 +1,15 @@
+* Todo Express + MongoDB Demo
+- Hosted at https://mo-todo-nodejs.herokuapp.com/
+
+** Get Started
+
+*** Docker
+#+BEGIN_SRC bash
+docker-compose up
+#+END_SRC
+
+*** No Docker
+
+#+BEGIN_SRC bash
+cd api && yarn install && yarn start
+#+END_SRC
