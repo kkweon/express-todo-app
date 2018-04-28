@@ -1,4 +1,7 @@
 * Todo Express + MongoDB Demo
+
+  #+ATTR_HTML: title="Greenkeeper badge"
+  [[https://greenkeeper.io/][file:https://badges.greenkeeper.io/kkweon/express-todo-app.svg]]
 - Hosted at https://mo-todo-nodejs.herokuapp.com/
 
 ** Get Started
